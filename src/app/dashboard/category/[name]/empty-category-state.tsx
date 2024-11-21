@@ -28,7 +28,7 @@ const EventCategoryState = ({ categoryName }: { categoryName: string }) => {
     if (hasEvents) router.refresh()
   }, [hasEvents, router])
 
-  const codeSnippet = `await fetch('https://localhost:3000/api/events', {
+  const codeSnippet = `await fetch('https://website-name:3000/api/events', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY'
